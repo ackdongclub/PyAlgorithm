@@ -7,12 +7,12 @@ second = data[n - 2] # 두 번째로 큰 숫자를 가져옴
 
 result = 0
 
-while True: #무한 반복
+while True: # 무한 반복
     for i in range(k):
         if m == 0:
             break
         result += first
-        m -= 1
+        m -= 1 # 한번 돌면 m의 회수를 줄임
     if m == 0:
         break
     result += second
