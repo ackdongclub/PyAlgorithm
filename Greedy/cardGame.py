@@ -15,7 +15,7 @@ def problem2():
     result = 0
     for i in range(n):
         data = list(map(int, input().split()))
-        min_value = 10001
+        min_value = 10001 # 비교대상이될 임의의 숫자
         for a in data:
             min_value = min(min_value, a)
         print(min_value)
