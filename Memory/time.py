@@ -6,3 +6,4 @@ for i in range(h + 1): #시
         for k in range(60): #초
             if '3' in str(i) + str(j) + str(k):
                 count += 1
+print(count)
