@@ -8,3 +8,4 @@ for i in range(len(array)):
             
     array[i], array[min_index] = array[min_index], array[i] # 스와프: 특정 리스트가 주어졌을 때 두 변수의 우치를 변경하는 작업
 print(array)
+
