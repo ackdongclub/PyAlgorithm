@@ -10,3 +10,9 @@ for i in range(len(count)): # 리스트에 기록된 정렬 정보 확인
     for j in range(count[i]):
         print(i, end=' ') # 등장한 횟수만큼 인덱스 출력
         
+array = [('바나나', 2), ('사과', 5), ('당근', 3)]
+
+def setting(data):
+    return data[0] # 정렬 기준(data[0] = 바나나, data[1] = 2)
+result = sorted(array, key=setting) # key: 기준을 설정
+print(result)
