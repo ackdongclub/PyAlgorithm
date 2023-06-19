@@ -1,5 +1,4 @@
 # 재귀함수로 구현한 이진 탐색 코드
-
 def binary_search(array, target, start, end):
     if start > end:
         return None
