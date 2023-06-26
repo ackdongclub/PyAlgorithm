@@ -21,4 +21,18 @@ def binary_search(array, target, start, end):
         else:
             print('No', end=' ')
     
-        
+# 계수 정렬 답
+n = int(input()) # 부품 개수
+array = [0] * 1000001
+
+for i in input().split():
+    array[int(i)] = 1
+    
+m - int(input())
+x = list(map(int, input().split()))
+
+for i in x:
+    if array[i] == 1:
+        print('yse', end=" ")
+    else:
+        print('no', end=" ")
