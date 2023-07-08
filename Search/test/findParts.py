@@ -22,17 +22,23 @@ def binary_search(array, target, start, end):
             print('No', end=' ')
     
 # 계수 정렬 답
-n = int(input()) # 부품 개수
-array = [0] * 1000001
+def Counting_Sort():
+    n = int(input()) # 부품 개수
+    array = [0] * 1000001
 
-for i in input().split():
-    array[int(i)] = 1
-    
-m - int(input())
-x = list(map(int, input().split()))
+    for i in input().split():
+        array[int(i)] = 1
+        
+    m - int(input())
+    x = list(map(int, input().split()))
 
-for i in x:
-    if array[i] == 1:
-        print('yse', end=" ")
-    else:
-        print('no', end=" ")
+    for i in x:
+        if array[i] == 1:
+            print('yse', end=" ")
+        else:
+            print('no', end=" ")
+        
+# 집합 자료형 탐색
+def set_Search():
+    n = int(input())
+    array = set(map(int, input().split())) # 자료형 
